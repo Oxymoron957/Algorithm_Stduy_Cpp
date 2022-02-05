@@ -30,8 +30,10 @@ int main(void) {
 		int current_node = i; // current node를 정한다.
 		do {
 			int local_root = (current_node-1)/2; // current node의 root node를 정한다.
+
 			if (arr[local_root] < arr[current_node]) // current node가 root node보다 더 크다면 swap
 				swap(arr, local_root, current_node);
+				
 			current_node = local_root; // root를 새로운 current 노드로 설정한다. (한 레벨 거슬러 올라간다.)
 		} while (current_node != 0); // current node가 root node일 때가지
 	}
