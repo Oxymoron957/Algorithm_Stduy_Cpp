@@ -10,6 +10,7 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
+	
 	int ini_input = 0;
 	cin >> ini_input;
 	queue<int> q;

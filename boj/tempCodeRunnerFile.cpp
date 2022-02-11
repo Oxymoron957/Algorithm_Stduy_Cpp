@@ -1,3 +1,2 @@
-or(auto e:arr) {
-		cout << e << " ";
-	}
+local;
+		local = 0;
