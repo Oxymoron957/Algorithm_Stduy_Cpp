@@ -1,2 +1,3 @@
-local;
-		local = 0;
+
+		cout << e << " ";
+	cout << "\n";
