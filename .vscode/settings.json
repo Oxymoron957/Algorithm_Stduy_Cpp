@@ -1,6 +1,9 @@
 {
 	"files.associations": {
 		"algorithm": "cpp",
-		"vector": "cpp"
+		"vector": "cpp",
+		"__mutex_base": "cpp",
+		"chrono": "cpp",
+		"ratio": "cpp"
 	}
 }
